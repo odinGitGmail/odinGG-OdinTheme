@@ -1,0 +1,53 @@
+{
+  "name": "odingg-odintheme",
+  "displayName": "odingg-odintheme",
+  "description": "odingg-odintheme",
+  "version": "1.0.1",
+  "icon": "assets/avatar.png",
+  "engines": {
+    "vscode": "^1.47.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odinGitGmail/odinGG-OdinTheme.git"
+  },
+  "publisher": "odinsam",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/odinGitGmail/odinGG-OdinTheme/issues"
+  },
+  "homepage": "https://github.com/odinGitGmail/odinGG-OdinTheme#readme",
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "odinsam",
+        "label": "odinSam'Theme imitation vs",
+        "path": "./fileicons/odinsam-icon-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "release": "standard-version",
+    "changelog": "conventional-changelog -i CHANGELOG.md -s -r 0",
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test",
+    "build": "vsce package"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.47.0",
+    "@types/mocha": "^10.0.7",
+    "@types/node": "20.x",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.5",
+    "@vscode/test-cli": "^0.0.9",
+    "@vscode/test-electron": "^2.4.0"
+  }
+}
