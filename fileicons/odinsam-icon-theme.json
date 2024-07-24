@@ -135,8 +135,14 @@
         "_config_file_dark": {
             "iconPath": "./images/json.svg"
         },
+        "_vsix_file_dark": {
+            "iconPath": "./images/vsix.svg"
+        },
+        "_fill_file_dark": {
+            "iconPath": "./images/file.svg"
+        }
     },
-    "file": "_dll_file_dark",
+    "file": "_fill_file_dark",
     "fileExtensions": {
         "lock": "_lock_file_dark",
         "wxss": "_css_file_dark",
@@ -167,6 +173,7 @@
         "props": "_xml_file_dark",
         "dockerignore": "_docker_file_dark",
         "gitignore": "_git_file_dark",
+        "vscodeignore": "_git_file_dark",
         "gitattributes": "_git_file_dark",
         "ps1": "_powershell_file_dark",
         "png": "_png_file_dark",
@@ -191,7 +198,8 @@
         "eslint": "_eslint_file_dark",
         "jpg": "_pic_file_dark",
         "jpeg": "_pic_file_dark",
-        "gif": "_pic_file_dark"
+        "gif": "_pic_file_dark",
+        "vsix": "_vsix_file_dark"
     },
     "fileNames": {
         "LICENSE": "_lit_file_dark",
